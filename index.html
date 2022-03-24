@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mine Sweeper</title>
+</head>
+
+<body onload="initGame(4,2)">
+    <h1>Mine Sweeper Game</h1>
+    <h2 class="timer">timer <span>0.000</span></h2>
+    <div onclick="initGame()" style="display: none;"></div>
+
+    <button onclick="initGame(4,2)" class="btn">easy</button>
+    <button onclick="initGame(6,4)" class="btn">medium</button>
+    <button onclick="initGame(8,6)" class="btn">hard</button>
+
+    <table border="1" cellpadding="10">
+        <tbody class="board">
+        </tbody>
+    </table>
+    <div class="footer">
+        <p>Amit Rolider</p>
+    </div>
+    <div class="said">
+        <p>i tried my best</p>
+    </div>
+
+    <script src="js/app.js"></script>
+    <script src="js/util.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.board td {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    transition: 0.5s;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.timer {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}
+
+.btn {
+    text-align: center;
+}
+
+.cell:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.cell {
+    background-color: rgb(65, 62, 62);
+}
+
+.clicked {
+    background-color: rgb(77, 67, 65);
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    font-size: 21px;
+    font-weight: bold;
+    color: white;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+
+.said {
+    position: fixed;
+    left: 0;
+    bottom: 5;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
